@@ -1,10 +1,11 @@
-<div class="card">
-  <div class="card-header">
-    Footer
+<div style="clear:both" class="panel panel-default">
+  
+  <div class="panel-body">
+    Panel content
   </div>
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    
+  
+  <div class="panel-footer">
+  Panel footer
   </div>
+
 </div>
