@@ -19,11 +19,11 @@ $total= ProductController::cartItem();
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Orders</a>
+        <a class="nav-link" href="/myorders">Orders</a>
       </li>
       
       <li class="nav-item">
-        <a class="nav-link " href="#" >Cart({{$total}})</a>
+        <a class="nav-link " href="/cartlist" >Cart({{$total}})</a>
       </li>
       @if(Session::has('user'))
       <li class="dropdown nav-item ">
